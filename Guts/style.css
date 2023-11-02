@@ -1,0 +1,112 @@
+.container{
+  margin-bottom: -10px;
+  font-size: 30;
+  text-align: center;
+}
+.footer {
+  background-color: #BAA378;
+  padding: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.footer-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.footer-info h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-info p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-contact {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-contact h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.container .navbar-brand {
+  color: #000 !important; 
+  text-decoration: none;
+  margin-top: 50%;
+}
+.container .nama {
+  color: #000 !important; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+.container h2 {
+text-align: center;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.project-item {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.project-item .project-image {
+position: relative;
+margin-bottom: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.project-item .project-image:before {
+content: "";
+position:absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+border: 2px solid #BAA378;
+border-radius: 5px;
+}
+
+.project-item img {
+width: 150px;
+height: 200px;
+}
+
+.project-item .project-details p {
+font-size: 14px;
+}
+
+.bordered-text {
+border: 2px solid #000000; 
+padding: 10px; 
+border-radius: 5px; 
+
+}
